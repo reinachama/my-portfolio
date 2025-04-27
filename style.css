@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(to right, #bae6f9, #fad4fa);
+  font-family: "Zen Maru Gothic", sans-serif;
+  margin: 0;
+
+  color: #0e075e;
+}
+.cat-icon {
+  height: 300px;
+  width: 400px;
+  margin: 20px;
+}
+
+.inu {
+  display: flex;
+  margin: 50px;
+}
+.neko {
+  text-align: center;
+  height: 300px;
+  width: 400px;
+  padding: 40px;
+  margin: 20px 60px;
+  background-color: bisque;
+  border-radius: 30px;
+}
+.neko:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  background-color: rgb(143, 172, 251);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.saru {
+  margin-left: 500px;
+  background-color: #f8fafd;
+  border-radius: 30px;
+  padding: 70px;
+  color: #7e6dc0;
+}
+.sakana {
+  display: flex;
+  text-align: center;
+  margin: 100px;
+}
+button {
+  background: linear-gradient(to bottom right, #ff9aa2, #ffb7b2);
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+  text-align: center;
+}
+button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to bottom right, #ffc0cb, #ffdde1);
+}
+#person {
+  font-size: 3rem; /* 数字を大きくすると絵文字も大きくなるよ！ */
+  text-align: center;
+  margin: 30px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* ボタン同士の間隔 */
+  margin-top: 30px;
+}
+
+.image_list {
+  margin-left: 100px;
+  margin-top: 100px;
+}
